@@ -2,10 +2,6 @@ import java.util.Stack;
 
 public class Q200 {
 
-    public Q200() {
-
-    }
-
     public int numIslands(char[][] grid) {
 
         int count = 0;
