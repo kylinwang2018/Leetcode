@@ -69,7 +69,7 @@ class LRUCache {
 
     public LRUCache(int capacity) {
         this.availableCapacity = capacity;
-        map = new HashMap();
+        map = new HashMap<Integer, ListNode>();
     }
 
     public int get(int key) {
